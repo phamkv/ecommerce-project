@@ -40,7 +40,7 @@ public class Product {
     private boolean active;
 
     @Column(name = "units_in_stock")
-    private int unitsIntStock;
+    private int unitsInStock;
 
     @Column(name = "date_created")
     @CreationTimestamp
